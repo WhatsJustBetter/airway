@@ -14,4 +14,4 @@
 ```
 
 # Documentation
-- See [DOCS.md](DOCS.md)
+- See the documentation [directory](DIRECTORY.md)
