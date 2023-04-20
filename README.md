@@ -12,3 +12,6 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.discordapp.com/attachments/841821480089944098/1098711111475408956/cdn.js"></script>
 ```
+
+# Documentation
+- See [DOCS.md](DOCS.md)
