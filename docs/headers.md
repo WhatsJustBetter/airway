@@ -1,7 +1,8 @@
 # Headers
 
 You can just use regular header `<hx>` elements for headers.
-Edits font size and weight
+Edits font size and weight.
+
 ![Headers](https://cdn.discordapp.com/attachments/841821480089944098/1098746516857946154/image.png)
 
 ## Applied CSS
