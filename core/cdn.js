@@ -1,4 +1,4 @@
-var loaded = true
+loaded = true
 
 document.onready = function() {
   var style;
