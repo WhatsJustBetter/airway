@@ -90,12 +90,12 @@ btn bg-[color]-[weight] text-[color]
 - .btn-light
 ```css
 .btn-light { @apply btn bg-neutral-100 text-gray-900 }
-.btn-light:active { @apply bg-neutral-200 }
+.btn-light:active { @apply bg-neutral-200; --tw-bg-opacity: 1 }
 ```
 - .btn-white
 ```css
 .btn-white { @apply btn bg-white text-gray-900 }
-.btn-white:active { @apply bg-neutral-100 }
+.btn-white:active { @apply bg-neutral-100; --tw-bg-opacity: 1 }
 ```
 - .btn-grey
 ```css
