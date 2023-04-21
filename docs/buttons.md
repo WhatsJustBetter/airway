@@ -90,10 +90,12 @@ btn bg-[color]-[weight] text-[color]
 - .btn-light
 ```css
 .btn-light { @apply btn bg-neutral-100 text-gray-900 }
+.btn-light:active { @apply bg-neutral-200 }
 ```
 - .btn-white
 ```css
 .btn-white { @apply btn bg-white text-gray-900 }
+.btn-white:active { @apply bg-neutral-100 }
 ```
 - .btn-grey
 ```css
@@ -114,11 +116,8 @@ btn bg-[color]-[weight] text-[color]
 - .btn-dark
 ```css
 .btn-dark { @apply btn bg-zinc-800 text-white }
-.btn-dark:active, .btn-black:active { @apply bg-zinc-900; --tw-bg-opacity: 1 }
 ```
 - .btn-black
 ```css
 .btn-black { @apply btn bg-black text-white }
-.btn-dark:active, .btn-black:active { @apply bg-zinc-900; --tw-bg-opacity: 1 }
-
 ```
