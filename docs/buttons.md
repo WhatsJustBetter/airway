@@ -114,8 +114,11 @@ btn bg-[color]-[weight] text-[color]
 - .btn-dark
 ```css
 .btn-dark { @apply btn bg-zinc-800 text-white }
+.btn-dark:active, .btn-black:active { @apply bg-zinc-900; --tw-bg-opacity: 1 }
 ```
 - .btn-black
 ```css
 .btn-black { @apply btn bg-black text-white }
+.btn-dark:active, .btn-black:active { @apply bg-zinc-900; --tw-bg-opacity: 1 }
+
 ```
