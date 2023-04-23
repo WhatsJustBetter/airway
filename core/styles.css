@@ -41,3 +41,10 @@ h6 { @apply text-sm font-normal }
 .btn-stone { @apply btn bg-stone-500 text-white }
 .btn-dark { @apply btn bg-zinc-800 text-white }
 .btn-black { @apply btn bg-black text-white }
+
+/* Cards */
+.card { @apply relative flex rounded-lg shadow-md }
+.card-top { @apply card justify-start }
+.card-center { @apply card items-center justify-center }
+.card-bottom { @apply card justify-end }
+.card-body { @apply p-3 }
